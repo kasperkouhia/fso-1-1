@@ -1,8 +1,9 @@
 function Part(props) {
   return (
-    <p>
-      {props.part} {props.exercises}
-    </p>
+    <div className="flex">
+      <span className="min-w-[200px]">{props.part}</span>
+      <span>{props.exercises}</span>
+    </div>
   );
 }
 
