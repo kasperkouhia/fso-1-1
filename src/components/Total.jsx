@@ -1,8 +1,11 @@
 function Total(props) {
-  const total = props.exercises1 + props.exercises2 + props.exercises3;
+  const total =
+    props.part1.exercises + props.part2.exercises + props.part3.exercises;
+
   return (
-    <div>
-      <p>Total number of exercises: {total}</p>
+    <div className="flex">
+      <span className="min-w-[200px]">Total number of exercises:</span>
+      <span>{total}</span>
     </div>
   );
 }
