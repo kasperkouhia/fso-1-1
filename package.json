@@ -1,7 +1,8 @@
 {
-  "name": "exercise-1",
+  "name": "fso-part-1-1",
+  "description": "Submission for exercise 1 of part 1 of the Full Stack Open course",
+  "author": "Kasper Kouhia",
   "private": true,
-  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
