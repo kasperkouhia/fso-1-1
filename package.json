@@ -1,6 +1,6 @@
 {
-  "name": "fso-part-1-1",
-  "description": "Submission for exercise 1 of part 1 of the Full Stack Open course",
+  "name": "fso-1-1",
+  "description": "Submission for the first set of exercises for part 1 of the Full Stack Open course",
   "author": "Kasper Kouhia",
   "private": true,
   "type": "module",
