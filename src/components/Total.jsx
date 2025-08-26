@@ -1,5 +1,8 @@
 function Total(props) {
-  const total = props.parts.reduce((total, part) => total + part.exercises, 0);
+  const total = props.course.parts.reduce(
+    (total, part) => total + part.exercises,
+    0,
+  );
 
   return (
     <div className="flex">
