@@ -24,8 +24,10 @@ function App() {
   return (
     <div className="m-4 flex flex-col gap-2">
       <Header course={course} />
-      <Content course={course} />
-      <Total course={course} />
+      <main className="flex flex-col gap-2">
+        <Content course={course} />
+        <Total course={course} />
+      </main>
     </div>
   );
 }
